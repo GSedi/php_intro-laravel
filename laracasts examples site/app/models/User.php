@@ -1,0 +1,15 @@
+<?php
+
+namespace App\Models;
+
+class User
+{
+    protected $name;
+
+
+    public function __toString()
+    {
+        return $this->name;
+    }
+
+}
